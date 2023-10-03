@@ -20,27 +20,33 @@
 }
 
 /* 웹킷 브라우저 (Chrome, Safari 등) */
-::-webkit-scrollbar,
-.items:hover::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 12px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--color-orange);
-  border-radius: 8px;
+  background: transparent;
 }
 ::-webkit-scrollbar-button {
   display: none;
 }
-.items::-webkit-scrollbar {
-  width: 0;
+body:hover::-webkit-scrollbar-thumb,
+.items:hover::-webkit-scrollbar-thumb {
+  background: var(--color-orange);
+  border-radius: 8px;
 }
 
 /* 전체 레이아웃 */
 * {
   box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -116,12 +122,16 @@ body {
   margin-bottom: var(--base-space);
 }
 
-.item__thumbnail {
+.thumbnail {
   width: var(--size-thumbnail);
   height: var(--size-thumbnail);
 }
 
-.item__description {
+.description {
   margin-left: var(--base-space);
   font-size: var(--font-size);
+}
+
+.invisible {
+  display: none;
 }
