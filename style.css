@@ -110,7 +110,7 @@ body {
   width: 60%;
   height: 60%;
   list-style: none;
-  padding-left: 0;
+  padding: 0 var(--base-space);
   overflow-y: scroll;
 }
 
@@ -118,8 +118,9 @@ body {
   background-color: var(--color-white);
   display: flex;
   align-items: center;
-  padding: var(--base-space);
+  padding: var(--base-space) calc(var(--base-space) * 2);
   margin-bottom: var(--base-space);
+  border-radius: var(--size-border);
 }
 
 .thumbnail {
@@ -128,7 +129,7 @@ body {
 }
 
 .description {
-  margin-left: var(--base-space);
+  margin-left: calc(var(--base-space) * 2);
   font-size: var(--font-size);
 }
 
