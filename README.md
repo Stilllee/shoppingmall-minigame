@@ -5,9 +5,8 @@
 
 <br>
 
-메인 화면 
-아이템 필터링
-
+![메인 화면](https://github.com/Stilllee/shoppingmall-minigame/assets/108785772/dac45232-cadd-4b55-9ca2-fda05bae0477)
+![아이템 필터링](https://github.com/Stilllee/shoppingmall-minigame/assets/108785772/2610f19b-ba2f-45d3-81f9-db94472d70b0)
 
 ## 목차
 - [기술 스택](#기술-스택)
@@ -34,7 +33,7 @@
 - 아이템의 색상과 종류 선택 기능
 - 선택된 아이템들의 상세 정보 동적 확인
 - 로고 클릭시 모든 아이템 조회 기능
-- 
+
 <br>
 
 ## 배포 사이트
