@@ -39,8 +39,3 @@
 ## 배포 사이트
 
 [미니 쇼핑몰](https://stilllee.github.io/shoppingmall-minigame/)
-
-<br>
-
-## 참고 강의
-[드림코딩 - 쇼핑몰 미니게임 & 코드 리뷰](https://academy.dream-coding.com/courses/mini-shopping)
